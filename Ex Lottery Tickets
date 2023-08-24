@@ -35,7 +35,7 @@ let friendsCut = profit - programmersCut
 //ANSWER ***
 if (programmersCut <= 100 )
 {
-    print ("su amigo no puede darle dinero porque la 10ma parte es de: $\(programmersCut) ")
+    print ("Your friend can't give you money because a tenth is from: $\(programmersCut) ")
 } else {
-    print ("Las ganancias exceden los $100, por tanto su amigo le dara $\(programmersCut)")
+    print ("The winnings exceed $100, so your friend will give you: $\(programmersCut)")
 }
