@@ -19,4 +19,17 @@ let valueOneMinute = 150
 let capacityFreeIphone = 5000
 let cantMinute = capacityFreeIphone / valueOneMinute
 
-print ("The iPhone can record \(cantMinute) minutes")
+//print ("The iPhone can record \(cantMinute) minutes")
+
+//Other solution. I am using the values ​​of the variables declared above.
+let capacityIphone = 8000
+let capacityBusyIphone = 3000
+let totalValue = capacityFreeIphone * valueOneMinute
+
+if (capacityFreeIphone == capacityIphone)
+{
+    print ("the iphone has its full capacity to record up to \(capacityIphone / valueOneMinute) minutes")
+} else {
+    
+    print ("the iphone has its NOT full capacity to record up to \( capacityFreeIphone / valueOneMinute) minutes")
+}
