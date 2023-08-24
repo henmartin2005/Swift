@@ -31,3 +31,11 @@ let profit = totalTakings - jackpot - totalExpenses
 // Distribution
 let programmersCut = profit / 10 // This is the answer you want to get > 100! 👉 
 let friendsCut = profit - programmersCut
+
+//ANSWER ***
+if (programmersCut <= 100 )
+{
+    print ("su amigo no puede darle dinero porque la 10ma parte es de: $\(programmersCut) ")
+} else {
+    print ("Las ganancias exceden los $100, por tanto su amigo le dara $\(programmersCut)")
+}
