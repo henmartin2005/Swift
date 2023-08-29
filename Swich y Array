@@ -32,3 +32,9 @@ myArray.append(variable2)
 myArray.append(variable3)
 
 print(myArray)
+
+//Recorrer Array
+
+for value in myArray{
+    print (value)
+}
