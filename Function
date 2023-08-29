@@ -1,0 +1,38 @@
+//Funciones con parametros de entrada:
+func sayHello(){
+    print("Hola")
+}
+
+sayHello()
+sayHello()
+
+func myName(name: String){
+    print ("Mi nombre es: \(name)")
+}
+
+myName(name: "Ludovina")
+myName(name: "Francisca")
+
+
+//Funcion con mas de 1 parametro de entrada
+func myName(name: String, age: Int){
+    print ("Mi nombre es: \(name) y tengo \(age) annos")
+}
+
+myName(name: "Henrry", age: 35)
+
+//Funcion con valor de retorno
+func helloString() -> String{
+    return "Bienvenido a mi mundo"
+}
+
+print(helloString())
+
+//Funcion con entrada y retorno
+func sumNumeros(firstNumber: Int, secundNumber: Int) -> Int {
+    let sum = firstNumber + secundNumber
+    return sum
+}
+
+let myNewNUmber = sumNumeros(firstNumber: 5, secundNumber: 8)
+print(myNewNUmber)
