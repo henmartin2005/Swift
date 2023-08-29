@@ -1,0 +1,34 @@
+//let nevando = false
+//let verano = true
+
+//if nevando && !verano {
+//    print("Hace calor")
+//} else {
+//    print ("Hace un clima complicado")
+//}
+
+
+let valor = "9"
+
+switch valor {
+case "a", "e":
+    print ("El mensaje es una vocal")
+case "z":
+    print("El mensaje es una consonante")
+default:
+    print("Valor por defecto")
+    
+}
+
+//Array
+let variable1 = "Var1"
+let variable2 = "var2"
+let variable3 = "var3"
+
+var myArray = [String]()
+
+myArray.append(variable1)
+myArray.append(variable2)
+myArray.append(variable3)
+
+print(myArray)
